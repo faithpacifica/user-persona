@@ -156,7 +156,7 @@ input[type=range]::-webkit-slider-runnable-track {
     width: 16px;
     border-radius: 50%;
     background: #FF5216;
-    /*TODO:bunga ham opacity tasir qilib ketdi*/
+    /*bunga ham opacity tasir qilib ketdi*/
     opacity: 1;
     cursor: pointer;
     margin-top: -5px; 
