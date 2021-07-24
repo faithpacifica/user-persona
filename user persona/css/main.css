@@ -24,9 +24,8 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    z-index: -1;
     position: relative;
-    top:-45px;
+    top:-50px;
     padding:88px 0 88px 0;
 }
 
