@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap');
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    margin:0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.title{
+    margin:0;
+    font-weight: 600;
+    font-size: 190px;
+    line-height: 1;
+    text-align: center;
+    color: #021335;
+    opacity: 0.05;
+}
+
+.section{
+    background-image: url(../images/bg-pic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    position: relative;
+    top:-45px;
+    padding:88px 0 88px 0;
+}
+
+.container{
+    position: relative;
+    margin:0 auto;
+    max-width: 1150px;
+    background: #FFFFFF;
+    border-radius: 36.1573px;
+    /* overflow: hidden; */
+}
+
+.grid-container:nth-child(1){
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding:65px 70px 30px 70px;
+    gap:50px;
+}
+
+.pic-column{
+    width:325px;
+}
+
+.center-col{
+    width:290px;
+}
+
+.right-col{
+    width:290px;
+}
+
+h3{
+    margin-top:0;
+}
+
+p, .points, span{
+    font-size: 11.5703px;
+    line-height: 22px;
+    color: #717886;
+}
+
+.blockquote{
+    margin-top:30px;
+    background: #FF5216;
+    opacity: 0.9;
+    padding:25px 20px;
+    border-radius: 21px;
+}
+
+.blockquote p{
+    color: #FFFFFF;
+}
+
+strong,h3{
+    font-weight: 600;
+    font-size: 11.5703px;
+    line-height: 22px;
+    color: #021335;
+}
+
+.main-image{
+    padding-bottom:25px;
+}
+
+.info{
+    width:210px;
+}
+
+.info p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-col-p{
+    margin-bottom:30px;
+}
+
+.points {
+    margin:0;
+    padding:0;
+    list-style-position: inside;
+}
+
+.points li:not(:last-child){
+    margin-bottom:8px;
+}
+
+.grid-container:nth-child(2){
+    display:grid;
+    grid-template-columns: 260px 260px 260px;
+    gap:50px;
+}
+
+.container::after{
+    content: "";
+    position: absolute;
+    background-image: url(../images/chair.png);
+    bottom:25px;
+    right:-75px;
+    z-index:15;
+    width:256px;
+    height:210px;
+}
+
+.bottom-box{
+    padding:0 70px 65px 70px;
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+    width: 100%; 
+    margin-bottom:16.5px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 3.5px;
+    cursor: pointer;
+    background: #FF5216;
+    opacity: 0.2;
+    border-radius: 7.2px;
+  }
+
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #FF5216;
+    /*TODO:bunga ham opacity tasir qilib ketdi*/
+    opacity: 1;
+    cursor: pointer;
+    margin-top: -5px; 
+}
+
+.personality{
+    margin:0;
+    display:flex;
+    justify-content: space-between;
+}
+
+small{
+    font-size: 10px;
+    line-height: 10px;
+    color: #717886;
+}
